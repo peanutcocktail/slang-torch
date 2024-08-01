@@ -477,7 +477,7 @@ compileAndLoadModule._moduleCache = {}
 
 def _compileAndLoadModule(metadata, sources, moduleName, buildDir, slangSourceDir, verbose=False):
     # make sure to add cl.exe to PATH on windows so ninja can find it.
-    _add_msvc_to_env_var()
+#    _add_msvc_to_env_var()
 
     extra_cflags = []
     extra_cuda_cflags = []
