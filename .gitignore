@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 tests/.slangtorch_cache/
-bin/
+#bin/
 
 # Ignore all slangtorch cache folders.
 **/.slangtorch_cache/**
